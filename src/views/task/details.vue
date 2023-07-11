@@ -36,7 +36,7 @@ const getDetail=async ()=>{
 }
 getDetail()
 const goToMessage=()=>{
-    router.push(`/message/talk/${state.item.user_id}`)
+    router.push(`/message/talk/${state.item.user_id}/${taskId}`)
 }
 </script>
 <template>
