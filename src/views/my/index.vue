@@ -4,6 +4,7 @@ import {useRouter} from 'vue-router'
 import FooterTabbar from '@/components/FooterTabbar.vue'
 import {myStore} from '@/store/my'
 const store=myStore()
+store.getResumeDict()
 const router=useRouter()
 if(!store.userInfo.user_name){
     store.getUserInfo()

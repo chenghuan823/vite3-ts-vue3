@@ -52,3 +52,32 @@ export function tiXian(data:any){
         data
     })
 }
+
+//获取我的简历详情接口
+export function resumeDetail(data:any){
+    return request({
+        url:'/admin/resume/getInfoDetailsAPI',
+        method:'get',
+        params:{
+            id:data.resume_id
+        }
+    })
+}
+
+//获取我的简历类型字典接口
+export function resumeDict(){
+    return request({
+        url:'/conllect/recuit/getRecuit',
+        method:'get',
+        params:{}
+    })
+}
+
+//个人优势接口
+export function advantage(data:any){
+    return request({
+        url:'/resume/advantage',
+        method:'post',
+        data
+    })
+}

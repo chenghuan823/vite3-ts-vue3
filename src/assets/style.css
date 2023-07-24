@@ -65,6 +65,45 @@ text-align:center
 .van-hairline--bottom:after{
   border:none
 }
+
+.resume-label{
+  padding: 1.28rem 0 1.09rem;
+  margin: 0 .59rem;
+  border-bottom: 1px solid #eee;
+}
+.resume-label h3{
+  font-size: 0.96rem;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.23rem;
+  margin-bottom: 0.96rem;
+}
+.resume-label h3 i{
+  float: right;
+}
+.resume-label p{
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #999999;
+  line-height: 0.75rem;
+}
+.resumen-btn{
+  width: 18.72rem;
+  height: 2.35rem;
+  background: linear-gradient(90deg, #FEA829, #FE8F27);
+  border-radius: 0.27rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 2.35rem;
+  border: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0rem;
+  margin: 0 .64rem .64rem;
+  width: calc(100vw - 1.28rem);
+}
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
